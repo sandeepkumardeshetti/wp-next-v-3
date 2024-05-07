@@ -1,7 +1,7 @@
 
 const graphqlrequets = async (query) => {
     
-  const url = `http://localhost/wpicms/graphql`;
+  const url = `${process.env.NEXT_PUBLIC_API_URL}`;
   const headers = {
     "Content-Type": "application/json",
   };
