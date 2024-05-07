@@ -17,8 +17,8 @@ const nextConfig = {
         
         remotePatterns :[
             {
-                protocol :"http",
-                hostname : "localhost"
+                protocol :"https",
+                hostname : "wpdemo.gclientdemo.com"
             }
         ]
     }
